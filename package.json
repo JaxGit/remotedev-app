@@ -1,7 +1,7 @@
 {
-  "name": "remotedev-app",
+  "name": "remotedev-app-slider",
   "version": "0.1.2",
-  "description": "Remote Redux DevTools web, electron and chrome app.",
+  "description": "Remote Redux DevTools web, electron and chrome app. slider version",
   "scripts": {
     "start": "gulp",
     "start:electron": "rm -rf ./build/electron/ && gulp build:electron && electron ./build/electron/",
@@ -21,13 +21,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zalmoxisus/remotedev-app"
+    "url": "https://github.com/JaxGit/remotedev-app"
   },
-  "homepage": "https://github.com/zalmoxisus/remotedev-app",
+  "homepage": "https://github.com/JaxGit/remotedev-app",
   "keywords": [
     "react",
     "redux",
-    "devtools"
+    "devtools",
+    "slider"
   ],
   "author": "Mihail Diordiev <zalmoxisus@gmail.com> (https://github.com/zalmoxisus)",
   "license": "MIT",
